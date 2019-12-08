@@ -77,11 +77,6 @@ body {
     border-radius: 0;
 }
 
-.naccs .menu div.active {
-    color: $third-color;
-    padding: 15px 20px 15px 20px;
-}
-
 ul.nacc {
     position: relative;
     height: 0px;
@@ -89,6 +84,11 @@ ul.nacc {
     margin: 0;
     padding: 0;
     transition: .5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.naccs .menu div.active {
+    color: $third-color;
+    padding: 15px 20px 15px 20px;
 }
 
 ul.nacc li {

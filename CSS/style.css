@@ -118,3 +118,32 @@ ul.nacc {
     -webkit-transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+ul.nacc li {
+    opacity: 0;
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    position: absolute;
+    list-style: none;
+    -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #d9d2e9;
+    padding: 5%;
+    height: 50.2vh;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+ul.nacc li.active {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+    z-index: 2;
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+ul.nacc li p {
+    margin: 1px;
+}

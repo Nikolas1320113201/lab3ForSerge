@@ -147,3 +147,56 @@ ul.nacc li.active {
 ul.nacc li p {
     margin: 0;
 }
+
+@media (max-width: 1024px) {
+    .naccs .menu div {
+        padding: 5px 10px 5px 20px;
+        width: 40%;
+        margin-left: 60%;
+    }
+    .naccs .menu div span.text {
+        padding-left: 5%;
+    }
+    ul.nacc li {
+        height: 37.4vh;
+        width: 60%;
+        margin-left: 5%;
+    }
+    ul.nacc li p {
+        font-size: 14px;
+    }
+    .footer {
+        width: 43.3%;
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 7.45vh;
+    }
+    ul.nacc li p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 370px) {
+    ul.nacc li p {
+        font-size: 9px;
+    }
+    .footer {
+        height: 4.65vh;
+        width: 47%;
+        font-size: 12px;
+    }
+    .naccs .menu div span.text {
+        font-size: 12px;
+        padding-left: 15%;
+    }
+    ul.nacc li {
+        margin-left: 12%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}

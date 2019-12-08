@@ -30,7 +30,7 @@ header {
     box-sizing: border-box;
     display: inline-block;
     margin-right: -.25em;
-    min-height: 1px;
+    min-height: 1.0px;
     padding-left: 0px;
     vertical-align: top;
 }
@@ -176,7 +176,7 @@ ul.nacc li p {
         height: 7.45vh;
     }
     ul.nacc li p {
-        font-size: 10px;
+        font-size: 11px;
     }
 }
 

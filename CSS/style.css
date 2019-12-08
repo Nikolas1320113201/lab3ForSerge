@@ -81,3 +81,40 @@ header {
     -webkit-transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.naccs .menu div.active span.light {
+    background-color: #000000;
+    left: 0;
+    height: 100%;
+    width: 1px;
+    top: 0;
+    border-radius: 0;
+}
+
+.naccs .menu div.active {
+    color: rgb(216, 146, 238);
+    background-color: #d9d2e9;
+    padding: 15px 20px 15px 20px;
+    border: none;
+}
+
+.footer {
+    height: 8.55vh;
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    color: #000000;
+    background: #cfe2f3;
+    border: 1px solid #000;
+}
+
+ul.nacc {
+    position: relative;
+    height: 0px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
